@@ -52,7 +52,6 @@ These examples provide hands-on experience with different Bitcoin address format
 
 2. Install Bitcoin Core following the installation instructions for your operating system.
 
-   ![Bitcoin Core Installation](placeholder_for_bitcoin_core_installation_image.png)
 
 ### Configuring Bitcoin Core
 
@@ -106,7 +105,6 @@ Make sure to replace `your_username` and `your_password` with your preferred val
 
    You should see blockchain information in JSON format.
 
-   ![Bitcoin Core Running](placeholder_for_bitcoin_core_running_image.png)
 
 ### Setting Up Python Environment
 
@@ -165,7 +163,6 @@ Make sure Bitcoin Core is running in regtest mode and your virtual environment i
    - Mine a block to confirm the transaction
    - Display the transaction details and locking script
 
-   ![Legacy A to B Transaction](placeholder_for_legacy_A_to_B_image.png)
 
    **Make note of the addresses displayed in the output, as you'll need them for the next step.**
 
@@ -183,7 +180,6 @@ Make sure Bitcoin Core is running in regtest mode and your virtual environment i
    - Mine a block to confirm the transaction
    - Display the transaction details and unlocking script
 
-   ![Legacy B to C Transaction](placeholder_for_legacy_B_to_C_image.png)
 
 ### P2SH-SegWit Transactions
 
@@ -199,7 +195,6 @@ Make sure Bitcoin Core is running in regtest mode and your virtual environment i
    - Mine a block to confirm the transaction
    - Display the transaction details and locking script
 
-   ![SegWit A to B Transaction](placeholder_for_segwit_A_to_B_image.png)
 
    **Make note of the addresses displayed in the output, as you'll need them for the next step.**
 
@@ -217,7 +212,6 @@ Make sure Bitcoin Core is running in regtest mode and your virtual environment i
    - Mine a block to confirm the transaction
    - Display the transaction details and unlocking script
 
-   ![SegWit B to C Transaction](placeholder_for_segwit_B_to_C_image.png)
 
 ## Understanding the Code
 
@@ -256,9 +250,3 @@ Key differences between the transaction types:
 - Verify all dependencies are installed
 - Check that Python 3.7+ is being used
 
-## References
-
-- [Bitcoin Developer Documentation](https://developer.bitcoin.org/)
-- [Bitcoin Core RPC API Reference](https://developer.bitcoin.org/reference/rpc/)
-- [Bitcoin Wiki - Script](https://en.bitcoin.it/wiki/Script)
-- [Bitcoin Improvement Proposals (BIPs)](https://github.com/bitcoin/bips)
