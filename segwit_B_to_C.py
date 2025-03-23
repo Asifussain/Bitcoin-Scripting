@@ -1,19 +1,3 @@
-#!/usr/bin/env python
-"""
-segwit_B_to_C.py
-P2SH-SegWit Transaction (B' -> C'):
-
-Workflow:
-  1. Connect to Bitcoin Core (regtest) via RPC.
-  2. Load the default wallet.
-  3. Prompt for Address B' (sender from A'->B') and Address C' (receiver).
-  4. Retrieve UTXOs for Address B'.
-  5. Create and broadcast a transaction sending ~0.3 BTC from B' to C'.
-  6. Mine a block to confirm.
-  7. Print the raw transaction hex.
-  8. Decode the transaction and display the unlocking (ScriptSig) details.
-"""
-
 from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 from decimal import Decimal
 import sys, json
