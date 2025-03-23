@@ -1,19 +1,3 @@
-#!/usr/bin/env python
-"""
-legacy_A_to_B.py
-Legacy P2PKH Transaction (A -> B):
-
-Workflow:
-  1. Connect to Bitcoin Core (regtest) via RPC.
-  2. Load the default wallet.
-  3. Generate three legacy addresses: A, B, and C.
-  4. Fund Address A with 1 BTC.
-  5. Create and broadcast a transaction sending 0.5 BTC from A to B.
-  6. Mine a block to confirm.
-  7. Print the raw transaction hex.
-  8. Decode the transaction and extract/display the locking script for Address B.
-"""
-
 from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 from decimal import Decimal
 import sys, json
